@@ -1,0 +1,32 @@
+Bing docs for driving distance...
+
+https://docs.microsoft.com/en-us/bingmaps/rest-services/examples/driving-route-example?redirectedfrom=MSDN
+
+https://docs.microsoft.com/en-us/bingmaps/rest-services/routes/calculate-a-route
+
+
+Driving distance between 2 address locations example...
+
+https://stackoverflow.com/questions/14831801/how-to-calculate-the-driving-distance-between-two-points
+
+API key = ApeHivnaztSwvGsBzGpbwnYJw9vAPSBI4LrGUh_YRYvmqZVRsrxjevRoSXGWi7M8
+
+
+
+
+
+Walmart and Target subscription and usage
+
+https://rapidapi.com/developer/billing/subscriptions-and-usage
+
+Walmart subscription Pricing
+
+https://rapidapi.com/apidojo/api/walmart/pricing
+
+Target subscription Pricing
+
+https://rapidapi.com/logicbuilder/api/target-com-store-product-reviews-locations-data/pricing
+
+API key = 9813878aa1msh7c70fcdc9bbf8a6p1e1f78jsn1ff70bded748
+
+

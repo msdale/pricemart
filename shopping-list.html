@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceMart</title>
+    <!-- add a favicon to our tab title -->
+    <link rel="icon" type="image" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css"/>
+    <!-- Font Awesome & Font Family Links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!--Header - Bulma Hero Layout-->
+    <section class="hero is-info is-small">
+        <div class="hero-body" style="background: url('./assets/images/viki-mohamad-tWXH_zGJrPo-unsplash.jpg') no-repeat right; background-size: contain;">
+            <div class="container is-widescreen columns">
+                <div class="column is-2">
+                    <figure class="image is-128x128">
+                        <img src="./assets/images/PriceMart Logo.png">
+                    </figure>
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-1">
+                        PriceMart
+                    </h1>
+                    <p class="subtitle is-3">
+                        Get the very best price every time you shop!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Header-->
+    <section class="is-large">
+    <section class="columns">
+    <!-- Retailer List -->
+        <!-- Bulma Panel -->
+        <div class="column is-3">
+            <div class="panel is-info">
+                <h3 class="panel-heading">
+                Saved Shopping Lists:
+                </h3>
+                <p class="panel-block">
+                Click on each store name below to view your shopping list!
+                </p>
+                <div class="panel-block">
+                <!-- Release 2.0 added retailers, create search for quicker finds for users with multiple retailers -->
+                <input class="input" type="text" placeholder="Search">
+                </div>
+                <a class="panel-block is-active">
+                    <span class="panel-icon">
+                    <i class="fas fa-book" aria-hidden="true"></i>
+                    </span>
+                    Target
+                </a>
+                <a class="panel-block">
+                    <span class="panel-icon">
+                    <i class="fas fa-book" aria-hidden="true"></i>
+                    </span>
+                    Walmart
+                </a>
+            </div>
+        </div>
+        <!-- List Results -->
+        <!-- Release 2.0 shopping list created with option to delete individual items -->
+        <div class="column is-9">
+            <div class="box">
+                <h2 class="title is-2">Target Shopping List:</h2>
+                <div class="box">
+                    <ul class="title is-4 target-viewlist">Shopping List</ul>
+                    <!-- Sample view of Release 2.0 -->
+                        <li>Sample Item 1  <button type="button"><i class="fas fa-trash"></i></button></li>
+                        <li>Sample Item 2  <button type="button"><i class="fas fa-trash"></i></button></li>
+                </br>
+                    <!-- Release 2.0 Print, Email and Delete entire list options with warning pop when delete entire list is clicked? -->
+                    <button type="submit" class="button is-primary">Print List</button>
+                    <button type="submit" class="button is-info">Email List</button>
+                    <button type="submit" class="button is-danger">Delete List</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+        
+    <!--return to home page-->
+    <section>
+        <div class="title is-2 has-text-centered">
+            <a href="./index.html">Return to Shopping!</a>
+        </div>
+    </section>   
+
+    <!--Footer - Bulma Footer Layout-->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <h1 class="title is-1">2021 Caffeine Overflow</h1>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+    <!-- JS files for Shopping List index for Release 2.0 -->
+    <!-- <script src="./assets/js/dataHandler.js"></script> -->
+    <!-- <script src="assets/js/list.js"></script> -->
+</body>
+</html>

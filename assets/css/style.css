@@ -1,0 +1,57 @@
+/** 
+Font Families: 
+
+HEADERS: 
+font-family: 'Gagalin', sans-serif;
+font-family: 'Courier Prime', monospace;
+
+BODY: 
+font-family: 'Montserrat', sans-serif;
+**/
+
+
+
+h1 {
+    font-family: 'Gagalin';
+}
+
+h2 {
+    font-family: 'Courier Prime';
+}
+
+h3 {
+    font-family: 'Courier Prime';
+}
+
+p {
+    font-family: 'Montserrat';
+}
+
+.hero image {
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+.hero p {
+    font-weight: bold;
+}
+
+#results {
+    background-color: rgb(49,114,220);
+}
+
+#results h2 {
+    color: white;
+}
+
+#results h3 {
+    color: white;
+}
+
+#results h4 {
+    color: black;
+}
+
+#results p {
+    color: black;
+}

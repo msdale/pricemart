@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PriceMart</title>
+    <!-- add a favicon to our tab title -->
+    <link rel="icon" type="image" href="./assets/images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css"/>
+    <!-- Font Awesome & Font Family Links -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
+    <link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <!-- Link to CSS file -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!--Header - Bulma Hero Layout-->
+    <section class="hero is-info is-small">
+        <div class="hero-body" style="background: url('./assets/images/viki-mohamad-tWXH_zGJrPo-unsplash.jpg') no-repeat right; background-size: contain;">
+            <div class="container is-widescreen columns">
+                <div class="column is-2">
+                    <figure class="image is-128x128">
+                        <img src="./assets/images/PriceMart Logo.png">
+                    </figure>
+                </div>
+                <div class="column is-10">
+                    <h1 class="title is-1">
+                        PriceMart
+                    </h1>
+                    <p class="subtitle is-3">
+                        Get the very best price every time you shop!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Header-->
+
+    <!-- create main to hold middle page and to help style flex/columns-->
+    <main>
+        <!--Location Search-->
+        <section class="section">
+            <h2 class="title is-2">Location</h2>
+            <p class="subtitle is-4">Please enter your address to find store locations closest to you:</p>
+            <div class="columns">
+                <div class="column">
+                    <input id="address-input" class="input is-info" type="text" placeholder="Address: City, State & Zip Code"/>
+                </div>
+                <div class="column">
+                    <button id="enter-button" class="button is-info">Enter</button>
+                </div>
+            </div>
+        </section>
+        <!--End Location Search-->
+
+        <!--Item Search for Comparison-->
+        <section class="section">
+            <h2 class="title is-2">Item Search</h2>
+            <p class="subtitle is-4">Enter the item name or description here to search:</p>
+            <div class="columns">
+                <div class="column">
+                    <input id="item-desc" class="input is-info" type="text" placeholder="Enter Item Name or Brief Decription Here"/>
+                </div>
+                <div class="column">
+                    <button id="search-button" class="button is-info">Search</button>
+                </div>
+            </div>
+        </section>    
+        <!--End Item Search-->
+
+        <!--Results Displayed Using Cards-->
+        <section class="section has-background-info" id="results">
+            <h2 class="title is-2">Results</h2>
+            <!-- connection to JS file to bring in results -->
+            <div class="columns">
+                <div class="column">
+                    <!--BOX 1 SEARCH RESULTS: TARGET-->
+                    <h3 class="title is-3">Target:</h3>
+                    <div class="box">
+                        <h3 id="target-info" class="title is-4"></h3>
+                        <div class="box">
+                            <ul id="target-items"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <!--BOX 2 SEARCH RESULTS: WALMART-->
+                    <h3 class="title is-3">Walmart:</h3>
+                    <div class="box">
+                        <h3 id="walmart-info" class="title is-4"></h3>
+                        <div class="box">
+                            <ul id="walmart-items"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Results Section-->
+
+        <!--View Shopping List-->
+        <section class="section has-text-centered">
+            <div class="title is-2">
+            <a href="./shopping-list.html"><h2 class="has-text-info">View Shopping List</h2></a>
+            <!-- <button id="view-list" class="button is-info">Click Here to View List</button> -->
+            </div>
+            <ul id="target-shopping-list"></ul>
+            <ul id="walmart-shopping-list"></ul>
+        </section>
+        <!--End Shopping List-->
+    </main>
+
+    <!--Footer - Bulma Footer Layout-->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <h1 class="title is-1">2021 Caffeine Overflow</h1>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <!-- JS File -->
+    <script src="./assets/js/dataAPI.js"></script>
+    <script src="./assets/js/dataHandler.js"></script>
+</body>
+</html>
+
