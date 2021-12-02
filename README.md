@@ -2,10 +2,10 @@
 <img src="https://github.com/msdale/caffeine-overflow/blob/feature/alexis/assets/images/Caffine%20Overflow%20Logo.png" alt="coffee cup"/>
 
 ## Website Link
-https://msdale.github.io/caffeine-overflow/
+https://msdale.github.io/pricemart/
 
 ## Repository Link
-https://github.com/msdale/caffeine-overflow
+https://github.com/msdale/pricemart/
 
 ## Description
 >A web browser application that compares pricing for items at local retailers, as well as shows the distance from the user to the store so that the user can take into consideration time and travel costs. User can then build shopping lists for each retailer and print or email lists for use at while shopping. 
