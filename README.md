@@ -1,4 +1,4 @@
-# **Group Project #1: Pricemart**
+# **Project: Pricemart**
 <img src="assets/images/pricemart.png" alt="coffee cup"/>
 
 ## Website Link
@@ -48,7 +48,7 @@ None
 
 ## Contributors: 
 Alexis El Amrani, Mark Dale, Patricia Manecci, Sebastian Casado and Phillip MacDonald 
-# Group Name:  Caffeine Overflow
+# Project Team Name:  Caffeine Overflow
 
 <img src="assets/images/caffeine-overflow.png" alt="coffee cup"/>
 
