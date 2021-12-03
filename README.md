@@ -46,6 +46,7 @@ None
 
 <img src="assets/images/05-view%20of%20shopping%20list%20page.jpg" alt="shopping list"/>
 
+
 # Project Team Name:  Caffeine Overflow
 
 <img src="assets/images/caffeine-overflow.png" alt="coffee cup"/>
