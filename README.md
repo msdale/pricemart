@@ -48,7 +48,7 @@ None
 
 ## Contributors: 
 Alexis El Amrani, Mark Dale, Patricia Manecci, Sebastian Casado and Phillip MacDonald 
-# Group Name:  caffeine-overflow
+# Group Name:  Caffeine Overflow
 
 <img src="assets/images/caffeine-overflow.png" alt="coffee cup"/>
 
