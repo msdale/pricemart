@@ -52,6 +52,7 @@ None
 # Project Team Name:  Caffeine Overflow
 
 <img src="assets/images/caffeine-overflow.png" alt="coffee cup"/>
+
 ## Team Members: 
 Alexis El Amrani, Mark Dale, Patricia Manecci, Sebastian Casado and Phillip MacDonald 
 
