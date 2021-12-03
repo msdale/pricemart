@@ -53,4 +53,4 @@ Alexis El Amrani, Mark Dale, Patricia Manecci, Sebastian Casado and Phillip MacD
 <img src="assets/images/caffeine-overflow.png" alt="coffee cup"/>
 
 ## Support:
-If you have any questions about the repo, please open an issue at https://github.com/msdale/caffeine-overflow/issues.
+If you have any questions about the repo, please open an issue at https://github.com/msdale/pricemart/issues.
