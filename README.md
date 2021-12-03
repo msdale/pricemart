@@ -46,11 +46,12 @@ None
 
 <img src="assets/images/05-view%20of%20shopping%20list%20page.jpg" alt="shopping list"/>
 
-## Contributors: 
-Alexis El Amrani, Mark Dale, Patricia Manecci, Sebastian Casado and Phillip MacDonald 
 # Project Team Name:  Caffeine Overflow
 
 <img src="assets/images/caffeine-overflow.png" alt="coffee cup"/>
+
+## Team Members: 
+Alexis El Amrani, Mark Dale, Patricia Manecci, Sebastian Casado and Phillip MacDonald 
 
 ## Support:
 If you have any questions about the repo, please open an issue at https://github.com/msdale/pricemart/issues.
