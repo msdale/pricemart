@@ -49,6 +49,8 @@ None
 ## Contributors: 
 Alexis El Amrani, Mark Dale, Patricia Manecci, Sebastian Casado and Phillip MacDonald 
 # Group Name:  caffeine-overflow
+
 <img src="assets/images/caffeine-overflow.png" alt="coffee cup"/>
-## Support
+
+## Support:
 If you have any questions about the repo, please open an issue at https://github.com/msdale/caffeine-overflow/issues.
